@@ -1,0 +1,81 @@
+]Ancienne Prison
+[Cellule Initiale
+0Vous vous reveillez brusquement.
+0Autour de vous, tout n'est que humidite
+0et moisissures.
+6
+0Vous vous relevez, lentement.
+0Vous vous trouvez dans ce qui ressemble
+0a une cellule de prison.
+0Que faites-vous la ?
+0Qui etes-vous, pour commencer ?
+6
+0Votre regard tombe alors sur un tas de
+0vetements sur le sol.
+0Les votres ?
+6
+0Non, puisque vous etes habille et que
+0de toute maniere, quelqu'un d'autre se
+0trouve dedans...
+6
+0Bon, pas la peine de s'eterniser ici !
+0Il vous faut sortir d'ici, et vite !
+0D'ailleurs, la porte de la Cellule
+0semble ouverte...
+*=Co-detenu[1]
+/=Porte de la Cellule[3]
++=
+-=
+8
+[
+#Paragraphe 1 - Parler au Co-Detenu
+0Votre compagnon de cellule ne
+0repond pas...
+0Peut-etre dort-il ?
+*=
++=Co-detenu[2]
+8
+[
+#Paragraphe 2 - Fouiller le Co-Detenu
+0Vous vous approchez...
+6
+0Et realisez que votre compagnon est en
+0realite mort : la bouche et les yeux
+0grand ouverts, le visage d'un vieillard
+0contemple avec un air horrifie le plafond
+0de vieilles pierres.
+6
+0Charmant !
+0Dans sa main, il y a une inscription :
+0"Pour cloturer cette demo, le code est 666."
+6
+0Il ne vous reste plus qu'une chose a faire...
++=
+8
+[
+#Paragraphe 3 - La Porte
+0Une voix retentit alors que vous tendez
+0la main.
+0-Eh, pour finir cette demo, il faut donner
+0 le code !
+0Avez-vous ce code ?
+3Oui[4]Non[5]
+[
+0-Tres bien, j'ecoute !
+7666[6][5]
+[
+0-Alors, qu'est-ce que tu fiches encore la ?!
+0 Bouge-toi un peu, bon sang !
+8
+[
+0-Mouais... Bon, la recre est fini !
+0 Parce qu'apres, faudrait mettre les objets,
+0 les informations, le menu, les conditions,
+0 les Paragraphes Temporaires, finir le level
+0 design des Anciennes Prisons et tout ecrire
+0 pour finir le Tutoriel !
+6
+0-Pardon ?! Moi, je trolle ?
+0 Bon, allez, salut !
+6
+9

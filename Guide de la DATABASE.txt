@@ -1,0 +1,11 @@
+[ : Début d'un nouveau Paragraphe -> [ ou [NomDuLieu si le Lieu change
+] : Début d'une nouvelle Zone -> ]NomDeLaZone
+0 : Texte à afficher -> 0TexteAAfficher
+3 : Choix -> 3Option1[N°ParagrapheCorrespondant]Option2[N°ParagrapheCorrespondant] et caetera. NOTE : Ne pas mettre plus de dix options !
+5 : Paragraphe suivant ->5A (A étant le N° du Paragraphe ciblé) ou 5A[B (B étant le N° de la Zone ciblée)
+6 : Met le texte en pause pour que le joueur puisse lire, puis reset l'écran
+
+CONSEILS :
+Utilisez cette commande :
+#CeciEstUnTexte
+Cette commande n'a aucun effet, vous pouvez donc l'utiliser pour rappeler le N° du Paragraphe actuel pour vous repérer, ou laisser des TODO, ou simplement des commentaires.
